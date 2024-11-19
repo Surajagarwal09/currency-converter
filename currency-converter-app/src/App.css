@@ -1,0 +1,128 @@
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+  background-color: rgb(4, 35, 61);
+}
+.h1{
+  margin-top: 150px;
+  color: aliceblue;
+  text-align: center;
+}
+.contents{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+form{
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid rgb(33, 139, 201);
+  border-radius: 10px;
+}
+.form-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  
+}
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+select{
+  font-size: 25px;
+  min-width: 100px;
+  background-color: rgb(4, 35, 61);
+  color: aliceblue;
+  border: 2px solid rgb(33, 139, 201);
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+option{
+  cursor: pointer;
+}
+input{
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid rgb(33, 139, 201);
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+  max-width: 250px;
+}
+.icon{
+  font-size: 25px;
+  color: aliceblue;
+}
+#submit{
+  font-size: 22px;
+  background-color:rgb(13, 125, 147);
+  color: aliceblue;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid rgb(33, 139, 201);
+  min-width: 100px;
+}
+
+@media (max-width:686px){
+  select,input{
+    font-size: 18px;
+  }
+  input{
+    max-width: 200px;
+  }
+}
+@media (max-width:510px){
+  select,input{
+    font-size: 18px;
+  }
+  input{
+    max-width: 150px;
+  }
+}
+@media (max-width:421px){
+  .h1{
+    font-size: 25px;
+  }
+  select,input{
+    font-size: 16px;
+  }
+  input{
+    max-width: 140px;
+  }
+}
+@media (max-width:391px){
+  .h1{
+    margin-top: 200px;
+    font-size: 23px;
+  }
+  select,input,#submit{
+    font-size: 18px;
+  }
+  input{
+    max-width: 120px;
+  }
+
+}
+@media (max-width:345px){
+  .h1{
+    margin-top: 200px;
+    font-size: 22px;
+  }
+  select,input,#submit{
+    font-size: 16px;
+  }
+  input{
+    max-width: 110px;
+  }
+
+}

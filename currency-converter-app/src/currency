@@ -1,0 +1,36 @@
+
+1.if india is choosed
+
+india to america = entered currency * 0.011
+
+india to china = entered currency * 0.085773988
+
+india to japan =  entered currency * 1.8249042
+
+
+2.if america is choosed 
+
+america to india = entered currency / 84.39
+
+amercia to china = entered currency * 7.2394187
+
+america to japan = entered currency * 154.07395
+
+
+3.if china is choosed 
+
+china to india = entered currency * 11.656517
+
+china to america = entered currency * 0.13813264
+
+china to japan = entered currency * 21.290936
+
+
+4.if japan is choosed
+
+japan to india =  entered currency * 0.54762059 jpy.
+
+japan to america = entered currency * 0.006486789 
+
+japan to china = entered currency * 0.046961805
+
